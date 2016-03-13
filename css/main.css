@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+section {
+  margin: 0.5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.card-group {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 1em;
+  list-style-type: none;
+  background-color: #e2e2e2;
+  border-left: 1px solid #000;
+  border-right: 0.5px solid #000;
+}
+
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
+}
+
+.img-card {
+  display: inline-block;
+  width: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
